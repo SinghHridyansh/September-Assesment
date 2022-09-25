@@ -159,8 +159,7 @@ nav ul li a:hover {
   height: 400px;
   display: flex;
   align-items: flex-start;
-  /* justify-content: center; */
-  /* background-color: #ffffff; */
+
   background-color: rgba(rgb(255, 255, 255), 0.7);
 }
 .form-thing h3 {
