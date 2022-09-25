@@ -118,13 +118,11 @@ nav ul li a:hover {
 }
 .info {
   flex-basis: 45%;
-  background-color: rgb(177, 127, 224);
 }
 .forms {
   flex-basis: 55%;
   /* display: grid;
   grid-template-columns: auto auto; */
-  background-color: rgb(177, 127, 224);
   border: 10px;
 }
 /* /* .grid-item1 {
