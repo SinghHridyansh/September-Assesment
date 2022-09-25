@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-size: 80%; */
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  /* font-weight: 400; */
+  font-size: 1rem;
+  color: black;
+  padding: 5px;
+}
+
+/* h1,
+h2,
+p {
+  margin: 1.2 rem;
+} */
+navbar {
+  margin-left: auto;
+  margin-right: auto;
+}
+header {
+  height: 100vh;
+  background: whitesmoke;
+  background-position: center;
+}
+.logo {
+  color: rgb(63, 187, 63);
+  font-size: 2rem;
+  font-weight: 800;
+  margin-left: 5%;
+}
+nav {
+  padding: 2% 8%;
+  display: flex;
+  justify-content: space-around;
+}
+nav ul {
+  margin-top: 10px;
+  margin-right: 0px;
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+  margin-left: 1rem;
+}
+nav ul li a:hover {
+  color: #4caf50;
+  transition: 0.2s ease-in-out;
+  border-radius: 5px;
+}
+.contact {
+  color: rgb(63, 187, 63);
+}
+.dropdown {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.get-started-button {
+  margin-right: 100px;
+  margin-left: 0px;
+  color: rgb(63, 187, 63);
+  border-radius: 5px;
+  border-color: rgb(63, 187, 63);
+  padding: 5px 20px;
+  text-align: center;
+}
+.header-content-top {
+  margin-top: 5px;
+  text-align: center;
+}
+.header-content-top h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.header-content-top img {
+  margin-top: 5px;
+  height: 4px;
+  width: 50px;
+}
+.header-content-top p {
+  margin-top: 15px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.header-content-main {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  align-items: center;
+  margin: auto;
+}
+.header-content-main img {
+  height: 25px;
+  width: 25px;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(63, 187, 63, 0.6);
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.header-content-main .info .map-image {
+  width: 300px;
+  height: 200px;
+}
+.info {
+  flex-basis: 45%;
+  background-color: rgb(177, 127, 224);
+}
+.forms {
+  flex-basis: 55%;
+  /* display: grid;
+  grid-template-columns: auto auto; */
+  background-color: rgb(177, 127, 224);
+  border: 10px;
+}
+/* /* .grid-item1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+} */
+/* .grid-item2 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+}*/
+.form-thing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-thing h3 {
+  font-size: medium;
+}
+.header-content-main .form-thing .column {
+  display: flex;
+  justify-content: space-between;
+}
+.name {
+  background-color: aqua;
+}
+.mail {
+  background-color: red;
+}
